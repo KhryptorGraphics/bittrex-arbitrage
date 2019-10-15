@@ -1,0 +1,131 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Market	main.js	/^var Market = function (market) {$/;"	c	class:getPrice
+Market	main.js	/^};$/;"	c
+MarketName	main.js	/^		var trade = {$/;"	p	class:trade.trade
+NodeBittrexApi	node.bittrex.api.js	/^var NodeBittrexApi = function () {$/;"	f
+Route	main.js	/^function Route(currencyX, currencyY, currencyZ, marketX, marketY, marketZ) {$/;"	c	class:getPrice
+Route	main.js	/^}$/;"	c
+addPlusOrSpace	main.js	/^function addPlusOrSpace(number, decimals) {$/;"	f
+agent	node.bittrex.api.js	/^		method: 'GET',$/;"	p	class:NodeBittrexApi.default_request_options
+apiCredentials	node.bittrex.api.js	/^	var apiCredentials = function (uri) {$/;"	f
+apikey	node.bittrex.api.js	/^		var options = {$/;"	p	class:apiCredentials.options
+balanceInterval	main.js	/^var balanceInterval;$/;"	v
+balances	main.js	/^var balances = [];$/;"	v
+baseUrl	node.bittrex.api.js	/^	var opts = {$/;"	p	class:opts
+baseUrlv2	node.bittrex.api.js	/^		baseUrl: 'https:\/\/bittrex.com\/api\/v1.1',$/;"	p	class:opts
+bear	main.js	/^	bull: 'bull', \/\/ drive prices up, quite risky$/;"	p	class:modes
+bitrexoptions	main.js	/^var bitrexoptions = JSON.parse(fs.readFileSync('.\/bittrexoptions.json', 'utf8'));$/;"	v
+bittrex	main.js	/^var bittrex = require('.\/node.bittrex.api.js');$/;"	v
+bull	main.js	/^	instantMinus: 'instantMinus',$/;"	p	class:modes
+calculate	main.js	/^	},$/;"	m	class:Route
+calculateDelta	main.js	/^function calculateDelta(input, market, currency, price) {$/;"	f	function:getPrice
+calculations	main.js	/^var calculations = 1;$/;"	v
+cancelations	main.js	/^var cancelations = 1;$/;"	v
+checkOrders	main.js	/^function checkOrders() {$/;"	f
+checkOrdersInterval	main.js	/^var checkOrdersInterval;$/;"	v
+checkOrdersTimeout	main.js	/^var checkOrdersTimeout;$/;"	v
+checkedOrders	main.js	/^var checkedOrders = 0;$/;"	v
+clear	main.js	/^var clear = require('clear');$/;"	v
+compare	main.js	/^function compare(a, b) {$/;"	f
+config	main.js	/^var config = JSON.parse(fs.readFileSync('.\/config.json', 'utf8'));$/;"	v
+connectws	node.bittrex.api.js	/^	var connectws = function (callback) {$/;"	f
+constructor	main.js	/^Market.prototype = {$/;"	p	class:Market
+constructor	main.js	/^Route.prototype = {$/;"	p	class:Route
+countRoutesByCurrencyX	main.js	/^function countRoutesByCurrencyX(currencyX) {$/;"	f	function:getPrice
+createRoute	main.js	/^function createRoute(currencyX, currencyY, currencyZ) {$/;"	f	function:getPrice
+credentialApiCall	node.bittrex.api.js	/^	var credentialApiCall = function (url, callback, options) {$/;"	f
+currencies	main.js	/^var currencies = [];$/;"	v
+d.init	hmac-sha512.js	/^var CryptoJS=CryptoJS||function(a,j){var c={},b=c.lib={},f=function(){},l=b.Base={extend:function(a){f.prototype=this;var d=new f;a&&d.mixIn(a);d.hasOwnProperty("init")||(d.init=function(){d.$super.init.apply(this,arguments)});d.init.prototype=d;d.$super=this;return d},create:function(){var a=this.extend();a.init.apply(a,arguments);return a},init:function(){},mixIn:function(a){for(var d in a)a.hasOwnProperty(d)&&(this[d]=a[d]);a.hasOwnProperty("toString")&&(this.toString=a.toString)},clone:function(){return this.init.prototype.extend(this)}},$/;"	c
+extend	hmac-sha512.js	/^var CryptoJS=CryptoJS||function(a,j){var c={},b=c.lib={},f=function(){},l=b.Base={extend:function(a){f.prototype=this;var d=new f;a&&d.mixIn(a);d.hasOwnProperty("init")||(d.init=function(){d.$super.init.apply(this,arguments)});d.init.prototype=d;d.$super=this;return d},create:function(){var a=this.extend();a.init.apply(a,arguments);return a},init:function(){},mixIn:function(a){for(var d in a)a.hasOwnProperty(d)&&(this[d]=a[d]);a.hasOwnProperty("toString")&&(this.toString=a.toString)},clone:function(){return this.init.prototype.extend(this)}},$/;"	c
+extend	hmac-sha512.js	/^var CryptoJS=CryptoJS||function(a,j){var c={},b=c.lib={},f=function(){},l=b.Base={extend:function(a){f.prototype=this;var d=new f;a&&d.mixIn(a);d.hasOwnProperty("init")||(d.init=function(){d.$super.init.apply(this,arguments)});d.init.prototype=d;d.$super=this;return d},create:function(){var a=this.extend();a.init.apply(a,arguments);return a},init:function(){},mixIn:function(a){for(var d in a)a.hasOwnProperty(d)&&(this[d]=a[d]);a.hasOwnProperty("toString")&&(this.toString=a.toString)},clone:function(){return this.init.prototype.extend(this)}},$/;"	m	class:init
+extractOptions	node.bittrex.api.js	/^	var extractOptions = function (options) {$/;"	f
+findRoutes	main.js	/^function findRoutes() {$/;"	f	function:getPrice
+fs	main.js	/^var fs = require('fs');$/;"	v
+generateOutput	main.js	/^	},$/;"	m	class:Route
+getBalanceByCurrency	main.js	/^function getBalanceByCurrency(currency) {$/;"	f
+getBalanceByCurrencyName	main.js	/^function getBalanceByCurrencyName(currencyName) {$/;"	f
+getBalances	main.js	/^	},$/;"	m	class:Route
+getBtcMarket	main.js	/^function getBtcMarket(currency) {$/;"	f
+getBtcValue	main.js	/^function getBtcValue(currency, quantity) {$/;"	f
+getCurrencyByName	main.js	/^function getCurrencyByName(currencyName) {$/;"	f
+getCurrencyValue	main.js	/^function getCurrencyValue(currencyX, currencyY, quantity) {$/;"	f
+getDownPrice	main.js	/^function getDownPrice(isBase, market, currency) {$/;"	f
+getMarketByCurrencies	main.js	/^function getMarketByCurrencies(currencyX, currencyY) {$/;"	f
+getMarketByName	main.js	/^function getMarketByName(marketName) {$/;"	f
+getMarketByName	main.js	/^function getMarketByName(marketName) {$/;"	f	function:getPrice
+getMinInput	main.js	/^function getMinInput(currency, btcValue) {$/;"	f
+getMinInputs	main.js	/^	},$/;"	m	class:Route
+getNonce	node.bittrex.api.js	/^	var getNonce = function () {$/;"	f
+getOppositePrice	main.js	/^function getOppositePrice(isBase, market, currency) {$/;"	f	function:getPrice
+getOrderBook	main.js	/^	},$/;"	m	class:Market
+getPrice	main.js	/^function getPrice(isBase, market, currency, instant) {$/;"	f
+getPrices	main.js	/^	},$/;"	m	class:Route
+getQuantityAvailableAtPrice	main.js	/^function getQuantityAvailableAtPrice(isBase, orderBook, price) {$/;"	f	function:getPrice
+getStartBalanceByCurrency	main.js	/^function getStartBalanceByCurrency(currency) {$/;"	f
+getUsdtAsBtc	main.js	/^function getUsdtAsBtc(quantity) {$/;"	f
+hasEnoughBalance	main.js	/^	},$/;"	m	class:Route
+hasOrderBook	main.js	/^	constructor: Market,$/;"	m	class:Market
+headers	node.bittrex.api.js	/^		agent: false,$/;"	p	class:NodeBittrexApi.default_request_options
+init	hmac-sha512.js	/^var CryptoJS=CryptoJS||function(a,j){var c={},b=c.lib={},f=function(){},l=b.Base={extend:function(a){f.prototype=this;var d=new f;a&&d.mixIn(a);d.hasOwnProperty("init")||(d.init=function(){d.$super.init.apply(this,arguments)});d.init.prototype=d;d.$super=this;return d},create:function(){var a=this.extend();a.init.apply(a,arguments);return a},init:function(){},mixIn:function(a){for(var d in a)a.hasOwnProperty(d)&&(this[d]=a[d]);a.hasOwnProperty("toString")&&(this.toString=a.toString)},clone:function(){return this.init.prototype.extend(this)}},$/;"	c
+inputBtc	main.js	/^var inputBtc = config.inputBtc; \/\/ input in BTC$/;"	v
+instant	main.js	/^	potential: 'potential', \/\/ speculative and risky$/;"	p	class:modes
+instantMinus	main.js	/^	instantPlus: 'instantPlus',$/;"	p	class:modes
+instantPlus	main.js	/^	instant: 'instant', \/\/ 100% profit$/;"	p	class:modes
+isBaseCurrency	main.js	/^	},$/;"	m	class:Market
+isBaseCurrency	main.js	/^function isBaseCurrency(currency, market) {$/;"	f
+isProfitable	main.js	/^	},$/;"	m	class:Route
+last	main.js	/^	median: 'median', \/\/ split the difference, risky but not as risky as potential$/;"	p	class:modes
+lastNonces	node.bittrex.api.js	/^	var lastNonces = [];$/;"	v
+log	main.js	/^function log() {$/;"	f
+logInterval	main.js	/^var logInterval;$/;"	v
+logSpinner	main.js	/^var logSpinner = 0;$/;"	v
+marketRouteString	main.js	/^	},$/;"	m	class:Route
+markets	main.js	/^var markets = [];$/;"	v
+median	main.js	/^var modes = {$/;"	p	class:modes
+method	node.bittrex.api.js	/^	var default_request_options = {$/;"	p	class:NodeBittrexApi.default_request_options
+minProfitFactor	main.js	/^var minProfitFactor = config.minProfitFactor; \/\/ minimum profit to make$/;"	v
+mode	main.js	/^var mode = config.mode;$/;"	v
+modifyOrders	main.js	/^function modifyOrders() {$/;"	f
+orders	main.js	/^var orders = [];$/;"	v
+pendingOrders	main.js	/^var pendingOrders = 0;$/;"	v
+potential	main.js	/^	potentialMinus: 'potentialMinus',$/;"	p	class:modes
+potentialMinus	main.js	/^	potentialPlus: 'potentialPlus',$/;"	p	class:modes
+potentialPlus	main.js	/^	last: 'last', \/\/ split the difference, risky but not as risky as potential$/;"	p	class:modes
+process	main.js	/^var process = require('process');$/;"	v
+profit	main.js	/^	bear: 'bear', \/\/ drive prices down, quite risky$/;"	p	class:modes
+publicApiCall	node.bittrex.api.js	/^	var publicApiCall = function (url, callback, options) {$/;"	f
+reverseDelta	main.js	/^function reverseDelta(input, market, currency, price) {$/;"	f	function:getPrice
+routeExists	main.js	/^function routeExists(currencyX, currencyY, currencyZ) {$/;"	f	function:getPrice
+routeIndex	main.js	/^var routeIndex = 0;$/;"	v
+routeString	main.js	/^	constructor: Route,$/;"	m	class:Route
+routes	main.js	/^var routes = [];$/;"	v
+routesOutput	main.js	/^var routesOutput = [];$/;"	v
+run	main.js	/^function run() {$/;"	f
+runInterval	main.js	/^var runInterval;$/;"	v
+runTimeout	main.js	/^var runTimeout;$/;"	v
+sendRequestCallback	node.bittrex.api.js	/^	var sendRequestCallback = function (callback, op) {$/;"	f
+setConnectedWs	node.bittrex.api.js	/^	var setConnectedWs = function (markets) {$/;"	f
+setMessageReceivedWs	node.bittrex.api.js	/^	var setMessageReceivedWs = function (callback) {$/;"	f
+setRequestUriGetParams	node.bittrex.api.js	/^	var setRequestUriGetParams = function (uri, options) {$/;"	f
+startBalances	main.js	/^var startBalances = [];$/;"	v
+startTime	main.js	/^var startTime = Date.now();$/;"	v
+subscribeToMarkets	main.js	/^function subscribeToMarkets() {$/;"	f	function:getPrice
+totalBtcNow	main.js	/^var totalBtcNow;$/;"	v
+totalBtcStart	main.js	/^var totalBtcStart;$/;"	v
+totalUsdtNow	main.js	/^var totalUsdtNow;$/;"	v
+totalUsdtStart	main.js	/^var totalUsdtStart;$/;"	v
+trade	main.js	/^	},$/;"	m	class:Route
+trade	main.js	/^function trade(quantity, rate, market, currency, callback) {$/;"	f	function:getPrice
+trades	main.js	/^var trades = 0;$/;"	v
+trading	main.js	/^var trading = false;$/;"	v
+updateBalances	main.js	/^function updateBalances() {$/;"	f
+updateQueryStringParameter	node.bittrex.api.js	/^	var updateQueryStringParameter = function (uri, key, value) {$/;"	f
+websockets_baseurl	node.bittrex.api.js	/^		baseUrlv2: 'https:\/\/bittrex.com\/Api\/v2.0',$/;"	p	class:opts
+websockets_hubs	node.bittrex.api.js	/^		websockets_baseurl: 'wss:\/\/socket.bittrex.com\/signalr',$/;"	p	class:opts
+wsclient.serviceHandlers.connected	node.bittrex.api.js	/^	var setConnectedWs = function (markets) {$/;"	f
+wsclient.serviceHandlers.messageReceived	node.bittrex.api.js	/^	var setMessageReceivedWs = function (callback) {$/;"	f

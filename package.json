@@ -1,0 +1,19 @@
+{
+	"name": "bittrex-arbitrage",
+	"version": "1.0.0",
+	"keywords": [
+		"util",
+		"functional",
+		"server",
+		"client",
+		"browser"
+	],
+	"author": "chris",
+	"contributors": [],
+	"dependencies": {
+		"clear": "0.0.1",
+		"node-bittrex-api": "^0.7.6",
+		"process": "^0.11.10",
+		"readline": "^1.3.0"
+	}
+}
